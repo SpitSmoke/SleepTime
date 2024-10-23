@@ -1,0 +1,44 @@
+ Programação Procedural:
+É o estilo de programação mais antigo e, como o nome sugere, é baseada em procedimentos (ou funções), que são blocos de código que realizam tarefas específicas. O foco principal está nas ações (funções) que o programa executa. Este estilo é usado por linguagens como C, Pascal, e BASIC.
+
+Características:
+Organização baseada em funções: O programa é dividido em funções ou procedimentos que realizam tarefas específicas.
+
+Fluxo de controle: O código é executado de forma sequencial, com fluxos de controle bem definidos como loops, condicionais e chamadas de funções.
+
+Dados e Funções separados: As funções são responsáveis por manipular os dados que são passados a elas. Os dados e as funções que os manipulam estão separados no código.
+
+Facilidade para projetos simples: A programação procedural é útil para projetos simples, onde as tarefas podem ser resolvidas de maneira sequencial.
+
+Programação Orientada a Objetos (POO):
+A Programação Orientada a Objetos organiza o código ao redor de objetos e classes. O foco está nos dados (objetos) e nas operações que podem ser realizadas sobre esses dados. Linguagens como Java, C++, Python, e C# suportam POO.
+
+Características:
+Organização baseada em objetos: O programa é estruturado em torno de objetos, que são instâncias de classes. Cada objeto combina dados (atributos) e comportamentos (métodos).
+
+Encapsulamento: Os dados (atributos) e as funções (métodos) que os manipulam são agrupados em uma única unidade chamada objeto.
+
+Reutilização de código: Com conceitos como herança, você pode criar novas classes baseadas em outras, reutilizando e estendendo funcionalidades.
+
+Abstração: Permite que detalhes complexos do código sejam ocultados, deixando apenas os aspectos essenciais visíveis para o usuário da classe.
+
+Polimorfismo: A capacidade de métodos ou funções agirem de maneiras diferentes dependendo dos objetos com os quais estão lidando.
+
+Facilidade para projetos grandes e complexos: POO é muito eficaz em sistemas grandes, onde a estrutura de classes e objetos ajuda a organizar o código. 
+
+
+Comparação Geral:
+
+
+| Aspecto                   | Programação Procedural                     | Programação Orientada a Objetos         |
+|---------------------------|--------------------------------------------|-----------------------------------------|
+| Estrutura do Programa     | Baseado em funções/procedimentos           | Baseado em classes e objetos            |
+| Foco                      | Ações e processos                          | Dados (objetos) e comportamentos        |
+| Organização do Código     | Funções independentes manipulam dados      | Dados e funções são encapsulados em objetos |
+| Reutilização de Código    | Difícil de reutilizar                      | Fácil através de herança e polimorfismo |
+| Exemplo de Linguagens     | C, Pascal, BASIC                           | Java, Python, C++, C#, Ruby             |
+| Aplicação                 | Projetos pequenos e de médio porte         | Projetos grandes, complexos e escaláveis|
+| Encapsulamento            | Não suporta                                | Sim, suporta                            |
+| Polimorfismo e Herança    | Não existe                                 | São elementos fundamentais              |
+
+

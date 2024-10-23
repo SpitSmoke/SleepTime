@@ -1,0 +1,27 @@
+algoritmo "HoraDeAcordar"
+var
+    horaDormir, minutosDormir, horasSono: inteiro
+    totalMinutos, horaAcordar, minutosAcordar: inteiro
+inicio
+    // Entrada de dados
+    escreva("Digite a hora que você vai dormir (0-23): ")
+    leia(horaDormir)
+
+    escreva("Digite os minutos que você vai dormir (0-59): ")
+    leia(minutosDormir)
+
+    escreva("Digite quantas horas você deseja dormir: ")
+    leia(horasSono)
+
+    // Cálculo dos minutos totais até acordar
+    totalMinutos := (horaDormir * 60) + minutosDormir + (horasSono * 60)
+
+    // Cálculo da hora e minutos para acordar
+    horaAcordar := totalMinutos / 60 // Divisão para obter as horas
+    minutosAcordar := totalMinutos % 60 // Resto para obter os minutos
+
+    // Ajuste para o formato de 24 horas
+    horaAcordar := horaAcordar % 24 // Ajuste caso passe de 24
+
+    // Saída de dados
+    escreva("Você deve acordar às ", horaAcordar, ":", minutosAcordar)
